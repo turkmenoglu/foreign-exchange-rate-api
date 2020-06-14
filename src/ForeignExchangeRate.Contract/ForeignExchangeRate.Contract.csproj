@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ForeignExchangeRate.Infrastructure\ForeignExchangeRate.Infrastructure.csproj" />
+    <ProjectReference Include="..\ForeignExchangeRate.Library\ForeignExchangeRate.Library.csproj" />
+    <ProjectReference Include="..\ForeignExchangeRate.Model\ForeignExchangeRate.Model.csproj" />
+    <ProjectReference Include="..\ForeignExchangeRate.Service\ForeignExchangeRate.Service.csproj" />
+  </ItemGroup>
+
+</Project>
